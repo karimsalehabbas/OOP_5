@@ -83,34 +83,34 @@ namespace OOP_5
     #endregion
      
     #region Q3
-    // public interface INotificationService
-    // {
-    //     void SendNotification(string recipient, string message);
-    // }
-    //
-    // public class EmailNotificationService : INotificationService
-    // {
-    //     public void SendNotification(string recipient, string message)
-    //     {
-    //         Console.WriteLine($"📧 Email sent to {recipient}: {message}");
-    //     }
-    // }
-    //
-    // public class SmsNotificationService : INotificationService
-    // {
-    //     public void SendNotification(string recipient, string message)
-    //     {
-    //         Console.WriteLine($"📲 SMS sent to {recipient}: {message}");
-    //     }
-    // }
-    //
-    // public class PushNotificationService : INotificationService
-    // {
-    //     public void SendNotification(string recipient, string message)
-    //     {
-    //         Console.WriteLine($"🔔 Push notification to {recipient}: {message}");
-    //     }
-    // }
+    //public interface INotificationService
+    //{
+    //    void SendNotification(string recipient, string message);
+    //}
+
+    //public class EmailNotificationService : INotificationService
+    //{
+    //    public void SendNotification(string recipient, string message)
+    //    {
+    //        Console.WriteLine($"📧 Email sent to {recipient}: {message}");
+    //    }
+    //}
+
+    //public class SmsNotificationService : INotificationService
+    //{
+    //    public void SendNotification(string recipient, string message)
+    //    {
+    //        Console.WriteLine($"📲 SMS sent to {recipient}: {message}");
+    //    }
+    //}
+
+    //public class PushNotificationService : INotificationService
+    //{
+    //    public void SendNotification(string recipient, string message)
+    //    {
+    //        Console.WriteLine($"🔔 Push notification to {recipient}: {message}");
+    //    }
+    //}
     #endregion
     internal class Program
     {
@@ -141,13 +141,13 @@ namespace OOP_5
             #endregion
 
             #region Implement Q2
-            // INotificationService emailService = new EmailNotificationService();
-            // INotificationService smsService = new SmsNotificationService();
-            // INotificationService pushService = new PushNotificationService();
-            //
-            //emailService.SendNotification("Hassan@example.com", "Hello Hassan !");
-            //smsService.SendNotification("01023500854", "Your balance has been deducted");
-            //pushService.SendNotification("hassan_18122022", "You have a new Notification!");
+            //INotificationService emailService = new EmailNotificationService();
+            //INotificationService smsService = new SmsNotificationService();
+            //INotificationService pushService = new PushNotificationService();
+
+            //emailService.SendNotification("karim@example.com", "Hello karim !");
+            //smsService.SendNotification("01111284210", "Your balance has been deducted");
+            //pushService.SendNotification("karim_18122022", "You have a new Notification!");
             #endregion
         }
     }
